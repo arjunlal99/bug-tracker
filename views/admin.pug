@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Admin Login
+    body
+        form(action="/api/admin/login" method="post")
+            label Username : 
+                input(type="string" name="username")
+            label Password : 
+                input(type="password" name="password")
+            input(type="submit" value="Login")
